@@ -1729,3 +1729,19 @@ footer .credits a {
     opacity: 0.4;
   }
 }
+
+.modal-dialog {
+  max-width: 100%;
+  margin: 0;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
