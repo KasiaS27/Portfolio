@@ -1578,7 +1578,17 @@ footer .credits a {
   font-weight: bold;
   font-size: 2rem;
   position: absolute;
-  top: -2.2rem;
+  top: -2.21rem;
+  left: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.bio-title-2 {
+  color: #2F5597;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -1.7rem;
   left: 0.5rem;
   padding: 0 0.5rem;
 }
