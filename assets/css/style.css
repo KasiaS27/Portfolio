@@ -1524,7 +1524,6 @@ footer .credits a {
 }
 
 .contact {
-  margin-top: 50px;
   display: inline-block;
   padding-right: 40px;
 }
@@ -1565,6 +1564,31 @@ footer .credits a {
   font-size: 1.24rem;
   font-weight: 300;
   width: auto;
+}
+
+.element2 {
+  background-color: #2F5597;
+  text-align: center;
+  color: azure;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  width: auto;
+}
+
+.element3 {
+  background-color: #8EAADB;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  width: auto;
+  margin-top: 20px;
 }
 
 .bio-container {
