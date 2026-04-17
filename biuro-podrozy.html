@@ -21,7 +21,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" />-->
 
   <!-- =======================================================
   * Template Name: DevFolio
@@ -33,63 +33,46 @@
 </head>
 
 <body>
+  <div class="col-10 m-auto p-0">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top p-0">
-    <div class="container d-flex align-items-center justify-content-between">
+    <!-- ======= Header ======= -->
+    <header id="header" class="col">
+      <div class="container  px-0">
 
-      <h1 class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
-          class="bi bi-chevron-left" viewBox="0 0 20 20">
-          <path fill-rule="evenodd"
-            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
-        </svg><a href="index.html">Powrót</a>
-      </h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <nav id="navbar" class="navbar mb-3">
+          <a href="index.html" class="active" role="button" aria-pressed="true"><svg xmlns="http://www.w3.org/2000/svg"
+              width="25" height="25" fill="white" class="bi bi-chevron-left" viewBox="0 0 30 18">
+              <path fill-rule="evenodd"
+                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+            </svg><span class="align-bottom" style="text-transform: capitalize; color: #a3a3a3;">Powrót</span></a>
 
-      <nav id="navbar" class="navbar">
-
-        <ul>
-          <li><a class="nav-link scrollto" href="index.html#work">Portfolio</a></li>
-          <li><a class="nav-link scrollto " href="index.html#about">O mnie</a></li>
-
-          <li><a class="nav-link scrollto" href="index.html#contact">Kontakt</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <div class="hero hero-single route bg-image" style="background-image: url(assets/img/biuro_podrozy/samolot4.png)">
-    <div class="overlay-mf"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <h2 class="hero-title mb-4">Biuro Podróży</h2>
-
-        </div>
+        </nav><!-- .navbar -->
+        <div class="thinLine"></div>
       </div>
-    </div>
-  </div>
+    </header><!-- End Header -->
 
-  <main id="main">
-    <div class="d-none d-sm-block">
-      <!-- ======= Portfolio Details Section ======= -->
-      <section id="about_project" class="about-mf sect-pt4 route">
-        <div class="container">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
+
+
+
+
+    <main id="main">
+      <div class="d-none d-sm-block">
+        <!-- ======= Portfolio Details Section ======= -->
+        <section id="about_project" class="about-mf sect-pt4 route">
+          <div class="container">
+            <div class="col-sm-12">
               <div class="row">
-                <div class="col-md-10 m-auto">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
+                <div class="col-md-12 m-auto px-0">
+                  <p style="font-weight: 100; font-size: 14px;">UX Resarch</p>
+                  <h1 class="PlayfairDisplay mb-5" style="font-size: 55px; color: #8EAADB;">Badania dla sektora travel
+                  </h1>
+                  <div class="about-me ps-5 mt-5" style="border-left: #8EAADB 1px solid;">
+                    <div class=" mb-3">
                       <h5 class="title-left">
                         O projekcie
                       </h5>
-                      <div class="line" style="background-color: #8EAADB;"></div>
                     </div>
-                    <p class="lead text-justify">
+                    <p class="lead desc">
                       Projekt polegał na przygotowaniu kompleksowej strategii UX dla nowego biura podróży online.
                       Klient, który planował uruchomić platformę e-commerce oferującą wyjazdy turystyczne, potrzebował
                       dokładnej analizy rynku,
@@ -101,12 +84,11 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-md-10 m-auto">
+                <div class="col-md-12 m-auto px-0">
                   <div class="title-box-2 mt-5">
-                    <h5 class="title-left">
+                    <h5 class="title3">
                       Road Map
                     </h5>
-                    <div class="line" style="background-color: #8EAADB;"></div>
                   </div>
                   <div class="d-none d-lg-block">
                     <!--linia 1-->
@@ -390,46 +372,45 @@
                   </div>
                 </div>
               </div>
-            </div>
 
+
+            </div>
           </div>
-        </div>
 
-      </section>
+        </section>
 
 
-      </section><!-- End Portfolio Details Section -->
-      <section id="desk_resarch" class="about-mf sect-pt4 route">
-        <div class="container">
-          <div class="col-sm-12">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">
-                  Desk Resarch
-                </h3>
+        </section><!-- End Portfolio Details Section -->
+        <section id="desk_resarch" class="about-mf sect-pt4 route">
+          <div class="container px-0">
+            <div class="col-sm-12 px-0">
+              <div class="col-sm-12 mt-5">
+                <div class="title-box text-start">
+                  <h3 class="title-a">
+                    Desk Resarch
+                  </h3>
 
-                <div class="line-mf" style="background-color: #8EAADB;"></div>
+                  <div class="line-mf" style="background-color: #8EAADB;"></div>
+                </div>
+                <p class="lead mt-5 desc">
+                  Przeprowadziłam dokładny przegląd dostępnych danych na temat rynku podróży, uwzględniając
+                  statystyki,
+                  preferencje użytkowników oraz popularność kierunków turystycznych. Analiza konkurencji pozwoliła
+                  zrozumieć,
+                  jak inne platformy podróżnicze spełniają potrzeby użytkowników.
+                </p>
               </div>
-            </div>
-            <div class="box-shadow-full">
               <div class="row">
-                <div class="col-md-10 m-auto">
-                  <div class="about-me pt-4 pt-md-0">
-                    <h5 class="title-left">
+                <div class="col-md-12 m-auto">
+                  <div class="about-me pt-4 pt-md-0 mt-3">
+                    <h5 class="title3">
                       Analiza konkurencji
                     </h5>
-                    <div class="line" style="background-color: #8EAADB;"></div>
 
 
 
                   </div>
-                  <p class="lead mt-5 text-justify">
-                    Przeprowadziłam dokładny przegląd dostępnych danych na temat rynku podróży, uwzględniając
-                    statystyki,
-                    preferencje użytkowników oraz popularność kierunków turystycznych. Analiza konkurencji pozwoliła
-                    zrozumieć,
-                    jak inne platformy podróżnicze spełniają potrzeby użytkowników.
-                  </p>
+
 
                   <div>
                     <div class="hstack gap-3 mt-5 mb-3">
@@ -566,7 +547,8 @@
 
                   <div>
                     <div class="hstack gap-3 mt-5 mb-3">
-                      <div class="col-3"><img class="d-block w-50 m-auto" src="assets/img/tripadvisor.svg" alt=""></div>
+                      <div class="col-3"><img class="d-block w-50 m-auto" src="assets/img/tripadvisor.svg" alt="">
+                      </div>
                       <div class="col-9">
                         <h3>Tripadvisor</h3>
                       </div>
@@ -586,7 +568,8 @@
                         <p class="lead m-auto fs-4 fw-normal">Wady</p>
                         <p class="lead text-start">
                           <br>Mniej kompleksowa oferta wycieczek.<br><br>
-                          Skupienie na treściach generowanych przez użytkowników może być mniej precyzyjne dla klientów
+                          Skupienie na treściach generowanych przez użytkowników może być mniej precyzyjne dla
+                          klientów
                           szukających konkretów.
                         </p>
                       </div>
@@ -603,7 +586,8 @@
                         <p class="pt-4 lead m-auto fs-4 fw-normal">Wady</p>
                         <p class="lead text-start">
                           <br>Mniej kompleksowa oferta wycieczek.<br><br>
-                          Skupienie na treściach generowanych przez użytkowników może być mniej precyzyjne dla klientów
+                          Skupienie na treściach generowanych przez użytkowników może być mniej precyzyjne dla
+                          klientów
                           szukających konkretów.
                         </p>
                       </div>
@@ -626,7 +610,8 @@
 
                   <p class="lead text-justify ">
                     Najpopularniejsze kierunki podróży to europejskie miasta, takie jak Paryż, Rzym i Barcelona, które
-                    przyciągają bogatą ofertą kulturową i łatwą dostępnością. Egzotyczne miejsca, jak Bali, Bangkok czy
+                    przyciągają bogatą ofertą kulturową i łatwą dostępnością. Egzotyczne miejsca, jak Bali, Bangkok
+                    czy
                     Dubaj, kuszą tropikalnym klimatem i unikalnymi doświadczeniami. Rodzinne wakacje dominują w takich
                     destynacjach jak greckie wyspy czy chorwackie wybrzeże, cenione za piękne krajobrazy i przyjazne
                     warunki dla rodzin. Podróżni szukają zarówno wygody, jak i wyjątkowych przeżyć.
@@ -643,21 +628,19 @@
                 </div>
               </div>
             </div>
-          </div>
-      </section><!-- End Portfolio Details Section -->
+        </section><!-- End Portfolio Details Section -->
 
-      <section id="wywiady" class="about-mf sect-pt4 route">
-        <div class="container">
-          <div class="col-sm-12">
+        <section id="wywiady" class="about-mf sect-pt4 route">
+          <div class="container">
             <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">
-                  Wywiady
-                </h3>
-                <div class="line-mf" style="background-color: #8EAADB;"></div>
+              <div class="col-sm-12">
+                <div class="title-box text-center">
+                  <h3 class="title-a">
+                    Wywiady
+                  </h3>
+                  <div class="line-mf" style="background-color: #8EAADB;"></div>
+                </div>
               </div>
-            </div>
-            <div class="box-shadow-full">
               <div class="row">
                 <div class="col-md-10 m-auto">
                   <div class="about-me pt-4 pt-md-0">
@@ -667,7 +650,8 @@
                       Przeprowadziłam pogłębione wywiady z osobami reprezentującymi grupę docelową. Celem było
                       zrozumienie ich oczekiwań wobec biura podróży online, barier w korzystaniu z takich usług oraz
                       czynników budujących poczucie
-                      bezpieczeństwa i satysfakcji. Na bazie zebranych wypowiedzi powstały kluczowe materiały badawcze -
+                      bezpieczeństwa i satysfakcji. Na bazie zebranych wypowiedzi powstały kluczowe materiały badawcze
+                      -
                       persona główna, mapa empatii i user journey map.
                     </p>
 
@@ -697,14 +681,17 @@
                     <p class="lead text-justify">
                       Podczas wywiadów uczestnicy wielokrotnie zwracali uwagę na trzy kluczowe kwestie: szybkość i
                       prostotę procesu rezerwacji, możliwość lepszego dopasowania oferty do indywidualnych preferencji
-                      oraz pewność, że w razie problemów otrzymają natychmiastowe wsparcie. Te oczekiwania wskazują, że
+                      oraz pewność, że w razie problemów otrzymają natychmiastowe wsparcie. Te oczekiwania wskazują,
+                      że
                       przyszłe biuro podróży powinno komunikować się w sposób budzący poczucie bezpieczeństwa i
                       podkreślający wygodę korzystania z serwisu. To nie tylko potrzeby funkcjonalne, ale także
                       emocjonalne – użytkownicy chcą czuć, że marka towarzyszy im na każdym etapie podróży: od wyboru
                       oferty, przez rezerwację, aż po sam pobyt.
 
-                      Na bazie analizy rozmów powstały narzędzia, które stanowią fundament dalszych prac strategicznych:
-                      główna persona opisująca typowego klienta biura, mapa empatii pozwalająca lepiej zrozumieć emocje
+                      Na bazie analizy rozmów powstały narzędzia, które stanowią fundament dalszych prac
+                      strategicznych:
+                      główna persona opisująca typowego klienta biura, mapa empatii pozwalająca lepiej zrozumieć
+                      emocje
                       i motywacje oraz user journey map
                       obrazująca punkty styku z marką. Te materiały tworzą spójną podstawę do projektowania zarówno
                       komunikacji, jak i doświadczenia użytkownika w całym procesie planowania podróży.
@@ -714,26 +701,25 @@
 
 
               </div>
+
             </div>
           </div>
-        </div>
-      </section><!-- End Portfolio Details Section -->
+        </section><!-- End Portfolio Details Section -->
 
 
 
-      <section id="persona" class="about-mf sect-pt4 route">
-        <div class="container">
-          <div class="col-sm-12">
+        <section id="persona" class="about-mf sect-pt4 route">
+          <div class="container">
             <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">
-                  Persona
-                </h3>
+              <div class="col-sm-12">
+                <div class="title-box text-center">
+                  <h3 class="title-a">
+                    Persona
+                  </h3>
 
-                <div class="line-mf" style="background-color: #8EAADB;"></div>
+                  <div class="line-mf" style="background-color: #8EAADB;"></div>
+                </div>
               </div>
-            </div>
-            <div class="box-shadow-full">
               <div class="row">
                 <div class="col-md-10 m-auto">
                   <div class="about-me pt-4 pt-md-0 justify-content-end">
@@ -879,9 +865,11 @@
                           Mariusz jest mężczyzną w średnim wieku. Razem z żoną bardzo często podróżują za granicę, aby
                           poznać kulturę innych państw. Kiedy ich dzieci były młodsze, najczęściej korzystali z usług
                           biur
-                          podróży, w których wykupywali gotowe wycieczki. Kiedy dzieci dorosły zaczęli planować podróże
+                          podróży, w których wykupywali gotowe wycieczki. Kiedy dzieci dorosły zaczęli planować
+                          podróże
                           na
-                          własną rękę lub korzystali z usług stacjonarnych biur podróży, aby ich wycieczki były bardziej
+                          własną rękę lub korzystali z usług stacjonarnych biur podróży, aby ich wycieczki były
+                          bardziej
                           spersonalizowane do ich potrzeb.
                         </p>
                       </div>
@@ -1005,28 +993,27 @@
 
                 </div>
               </div>
+
             </div>
-          </div>
-      </section><!-- End Portfolio Details Section -->
+        </section><!-- End Portfolio Details Section -->
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
-      <section id="mapa_empatii" class="about-mf sect-pt4 route">
-        <div class="container">
-          <div class="col-sm-12">
+
+        <section id="mapa_empatii" class="about-mf sect-pt4 route">
+          <div class="container">
             <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">
-                  Mapa Empatii
-                </h3>
+              <div class="col-sm-12">
+                <div class="title-box text-center">
+                  <h3 class="title-a">
+                    Mapa Empatii
+                  </h3>
 
-                <div class="line-mf" style="background-color: #8EAADB;"></div>
+                  <div class="line-mf" style="background-color: #8EAADB;"></div>
+                </div>
               </div>
-            </div>
 
-            <div class="box-shadow-full">
               <div class="row">
                 <div class="col-md-10 m-auto">
                   <div class="about-me pt-4 pt-md-0 px-0">
@@ -1070,12 +1057,12 @@
                 </div>
 
               </div>
+
+
+
             </div>
-
-
           </div>
-        </div>
-      </section><!-- End Portfolio Details Section -->
+        </section><!-- End Portfolio Details Section -->
 
 
 
@@ -1083,20 +1070,19 @@
 
 
 
-      <section id="user_journey_map" class="about-mf sect-pt4 route">
-        <div class="container">
-          <div class="col-sm-12">
+        <section id="user_journey_map" class="about-mf sect-pt4 route">
+          <div class="container">
             <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">
-                  User Journey Map
-                </h3>
+              <div class="col-sm-12">
+                <div class="title-box text-center">
+                  <h3 class="title-a">
+                    User Journey Map
+                  </h3>
 
-                <div class="line-mf" style="background-color: #8EAADB;"></div>
+                  <div class="line-mf" style="background-color: #8EAADB;"></div>
+                </div>
               </div>
-            </div>
 
-            <div class="box-shadow-full">
               <div class="row">
                 <div class="col-md-10 m-auto ">
                   <div class="title-box-2 ">
@@ -1127,7 +1113,7 @@
                   </p>
 
                   <div class="about-me pt-4 pt-md-0 px-0 ">
-                    <img src="assets/img/biuro_podrozy/KRITA.jpg" class=" w-100 d-block mx-auto" alt="...">
+                    <img src="assets/img/biuro_podrozy/user_journey_map3.png" class=" w-100 d-block mx-auto" alt="...">
                     <p class="lead">
 
                     </p>
@@ -1135,31 +1121,29 @@
                 </div>
 
               </div>
+
+
+
             </div>
-
-
-
           </div>
-        </div>
-      </section><!-- End Portfolio Details Section -->
+        </section><!-- End Portfolio Details Section -->
 
 
 
 
 
-      <section id="card_sorting" class="about-mf sect-pt4 route">
-        <div class="container">
-          <div class="col-sm-12">
+        <section id="card_sorting" class="about-mf sect-pt4 route">
+          <div class="container">
             <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">
-                  Card Sorting
-                </h3>
+              <div class="col-sm-12">
+                <div class="title-box text-center">
+                  <h3 class="title-a">
+                    Card Sorting
+                  </h3>
 
-                <div class="line-mf" style="background-color: #8EAADB;"></div>
+                  <div class="line-mf" style="background-color: #8EAADB;"></div>
+                </div>
               </div>
-            </div>
-            <div class="box-shadow-full">
               <div class="row">
                 <div class="col-md-10 m-auto">
                   <div class="about-me pt-4 pt-md-0">
@@ -1169,7 +1153,8 @@
                       moim badaniu uczestnicy otrzymali zestaw kart z różnymi nazwami typów podróży i kierunków. Ich
                       zadaniem było pogrupowanie ich w taki sposób, który wydawał im się najbardziej logiczny i
                       intuicyjny.
-                      Dzięki temu mogłam lepiej zrozumieć sposób myślenia użytkowników i wykorzystać te obserwacje przy
+                      Dzięki temu mogłam lepiej zrozumieć sposób myślenia użytkowników i wykorzystać te obserwacje
+                      przy
                       tworzeniu person, mapy empatii i całego obrazu grupy docelowej. Ćwiczenie pokazało, że nawet
                       proste zadanie z kartami potrafi odsłonić prawdziwe potrzeby i sposób postrzegania oferty przez
                       klientów.
@@ -1308,33 +1293,34 @@
                 </div>
 
               </div>
+
+            </div>
+          </div>
+        </section><!-- End Portfolio Details Section -->
+
+
+      </div>
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="thinLine mt-5"></div>
+            <div class="copyright-box py-5">
+              <p class="copyright">&copy; 2026 Katarzyna Skrobisz. Wszystkie prawa zastrzeżone.</p>
             </div>
           </div>
         </div>
-      </section><!-- End Portfolio Details Section -->
-
-
-    </div>
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>Katarzyna Skrobisz</strong></p>
-          </div>
-        </div>
       </div>
-    </div>
-  </footer><!-- End  Footer -->
+    </footer><!-- End  Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="background-color: #8EAADB;"><i
-      class="bi bi-arrow-up-short"></i></a>
-
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"
+      style="background-color: #8EAADB;"><i class="bi bi-arrow-up-short"></i></a>
+  </div>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
