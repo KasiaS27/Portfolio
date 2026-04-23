@@ -243,10 +243,10 @@ a:hover {
 }
 
 .block2 {
-  background-color: #bd626c;
+  border: #bd626c 1px solid;
   text-align: center;
   border-radius: 10px;
-  color: #f5ffff;
+  color: #a3a3a3;
   padding: 8px;
   font-size: 17px;
   font-weight: bold;
@@ -1581,6 +1581,10 @@ footer .credits a {
   box-shadow: 1px 1px 1px 1px #8EAADB;
 }
 
+.block2:hover {
+  box-shadow: 1px 1px 1px 1px #bd626c;
+}
+
 .map {
   transition: opacity 0.7s ease-in-out;
   opacity: 0;
@@ -2521,3 +2525,18 @@ textarea::placeholder {
   white-space: nowrap;
   height: 200%;
 }
+
+.feature-card svg {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 15px;
+}
+
+.feature-card {
+  padding: 32px;
+  border-radius: 16px;
+  background: #141416;
+  border: 1px solid #1f1f22;
+  transition: 0.3s;
+}
+
