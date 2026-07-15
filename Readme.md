@@ -1,5 +1,3 @@
-# Stitch&Petal
-
 # UI/UX Portfolio Katarzyna Skrobisz
 
 
