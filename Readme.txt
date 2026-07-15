@@ -1,4 +1,4 @@
-# Portfolio Katarzyna Skrobisz
+# UI/UX Portfolio Katarzyna Skrobisz
 
 W tym repozytorium znajduje się kod źródłowy mojego portfolio oraz wszystkie zasoby projektu.
 
