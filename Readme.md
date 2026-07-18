@@ -12,7 +12,7 @@ Projekt jest w **ciągłej rozbudowie** – regularnie dodaję nowe projekty i u
 
 To moje osobiste portfolio, na którym prezentuję projekty z zakresu UX/UI designu. Każdy projekt ma swoją stronę z case study, gdzie opisuję proces pracy – od researchu, przez projektowanie, aż po testowanie z użytkownikami.
 
-Strona zbudowana jest w **HTML5**, **CSS3** i **JavaScript** – pracowałam nad nią, aby pokazać swoją pracę i nauczyć się tych technologii na praktyce.
+Strona zbudowana jest w **HTML5**, **CSS3** i **JavaScript**. Portfolio zostało zaprojektowane i zaimplementowane jako własny projekt prezentujący umiejętności z zakresu UX/UI oraz front-end developmentu.
 
 Strona zawiera case studies dla projektów takich jak:
 - Research dla sektora travel
